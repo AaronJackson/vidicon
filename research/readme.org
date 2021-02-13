@@ -1,0 +1,24 @@
+* Some sources
+
+- https://batc.org.uk/wp-content/uploads/cq-tv033.pdf#page=4
+
+CQ-TV magazine, issue 33, discuss winding deflection coils for vidicon
+tubes on page for. Quite interesting although the table is poorly
+typeset and I haven't figured out what it all means yet.
+
+- http://tubetime.us/index.php/2014/05/26/crts-with-magnetic-deflection/
+
+TubeTimeUS shows how to wide a deflection coils for a fairly large CRT
+using a toilet roll tube.
+
+- http://www.sparkbangbuzz.com/crt/crt6.htm
+demonstrates fairly simple deflection using magnet wire and steel
+bolts
+
+
+- Volume 22 of MIT Radiation Lab series "Cathode Ray Tubes" discusses
+  deflection coils for CRTs in detail in Chapter 8.
+  - Fig. 8.26 shows different types of air gapped windings
+  - Fig. 8.27 shows the magnetic field of lumped windings. nice and
+    straight!
+
