@@ -17,12 +17,22 @@ module winding_hooks () {
   }
 }
 
+module winding_support () {
+  for (a = [0:45:360-45]) {
+    rotate([0,0,a])
+    translate([dia/2+wall,-peg_dia/2,peg_dia+3-1])
+      cube([peg_dia, peg_dia, length - 6 - peg_dia*2+2]);
+  }
+}
+
 difference () {
   union () {
     cylinder(h=length,r=dia/2+wall);
     translate([0,0,0]) winding_hooks();
     translate([0,0,length]) rotate([-180,0,0])  winding_hooks();
+    translate([0,0,0]) winding_support();
   }
   translate([0,0,-1]) cylinder(h=length+2,r=dia/2+slop);
 }
+
 
