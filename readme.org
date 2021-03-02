@@ -1,0 +1,3 @@
+* Vidicon Project
+
+I'm playing with vidicon tubes. This repo keeps track of some of that.
