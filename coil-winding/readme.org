@@ -55,4 +55,9 @@ void loop() {
 #+END_SRC
 
 The serial terminal can be monitored while this runs until the desired
-number of turns is achieved.
+number of turns is achieved. I have a video demonstrating this
+process:
+
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k3v9O-aFzHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_HTML
