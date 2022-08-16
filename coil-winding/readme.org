@@ -6,7 +6,7 @@ available at the Nottingham Hackspace.
 
 ** The Jig
 
-#+html: <img src="render.png" />
+#+html: <img src="render.png" width="400" />
 
 This was laser cut using the laser cutter at Nottingham
 Hackspace. It's cut out of 3mm acrylic. The pieces can be stacked
