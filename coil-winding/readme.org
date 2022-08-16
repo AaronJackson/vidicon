@@ -60,3 +60,23 @@ process:
 
 #+HTML: <a href="https://www.youtube.com/watch?v=k3v9O-aFzHc"><img src="https://img.youtube.com/vi/k3v9O-aFzHc/0.jpg" width="400" /></a>
 
+A funnel was used to guide the wire into the winding jig. I found it
+also helped to keep the wire 1-2 metres away, which helps improve
+tension and gives some buffering.
+
+** Choosing the number of turns
+
+The number of turns is a critical decision when designing your
+yoke. Too few turns and you have what appears a dead short. A large
+number of tuns will allow steering the beam with lower a
+current. Adding something ferrous will result in a large increase in
+inductance - this can be advantageous for rasters, since the current
+is climbing anyway, leading too larger deflection with lower
+currents. Avoiding a ferrous material will allow rapid steering of the
+beam (useful for XY scopes), but require higher current to obtain a
+similar amount of deflection. The number of turns required is also
+hugely impacted by the scan frequency.
+
+I used a combination of LTSpice and online coil inductance calculators
+in order to chose my number of 300 turns.
+
