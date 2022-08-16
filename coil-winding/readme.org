@@ -1,0 +1,24 @@
+* Coil Winding
+
+Winding coils by hand is never fun. I've managed to make the process
+significantly easier for small runs of coils by using some tools
+available at the Nottingham Hackspace.
+
+** The Jig
+
+#+html: <img src="render.png" />
+
+This was laser cut using the laser cutter at Nottingham
+Hackspace. It's cut out of 3mm acrylic. The pieces can be stacked
+together as an acrylic sandwich and held in place using M3 screws. The
+outer parts of the sandwich are circular to make winding a coil easier
+on a lathe - a rectangular shape will lead to the wire being snagged
+on corners. The larger holes allow the coil to be tied or zip-tied
+together prior to unstacking the sandwich. I've produced several 300
+turn coils in this way.
+
+The SVG in this directory is path only which makes it easy to export
+as DXF and cut on a laser cutter. I've included a PNG for
+visualisation purposes only.
+
+
