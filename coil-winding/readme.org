@@ -6,7 +6,7 @@ available at the Nottingham Hackspace.
 
 ** The Jig
 
-#+html: <img src="render.png" width="400" />
+#+html: <img src="render.png" width="400" />>
 
 This was laser cut using the laser cutter at Nottingham
 Hackspace. It's cut out of 3mm acrylic. The pieces can be stacked
@@ -58,4 +58,5 @@ The serial terminal can be monitored while this runs until the desired
 number of turns is achieved. I have a video demonstrating this
 process:
 
-#+HTML: <iframe width="560" height="315" src="https://www.youtube.com/embed/k3v9O-aFzHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+HTML: <a href="https://www.youtube.com/watch?v=k3v9O-aFzHc"><img src="https://img.youtube.com/vi/k3v9O-aFzHc/0.jpg" width="400" /></a>
+
