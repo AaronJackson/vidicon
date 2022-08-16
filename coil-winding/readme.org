@@ -21,4 +21,38 @@ The SVG in this directory is path only which makes it easy to export
 as DXF and cut on a laser cutter. I've included a PNG for
 visualisation purposes only.
 
+Once the coil has been tied and removed from the jig, it can be bent
+into the correct shape. This has been useful for matching the curve of
+CRTs.
 
+** Winding on the lathe
+
+Nottingham Hackspace has a decent selection of lathes available for
+use. One of the inductionless lathes is referred to as the "mini
+lathe", and is, unsurprisingly, quite small. The mini lathe can be
+used down to quite low speeds (< 100rpm or so). To simplify the
+counting, I use a reed switch and arduino to count the number of
+rotations, simply sticking a magnet to the lathe's chuck.
+
+The Arduino code for this counting is very simple:
+
+#+BEGIN_SRC c
+void setup() {
+  Serial.begin(9600);
+  pinMode(2, INPUT_PULLUP);
+}
+
+int prevState = -1;
+int counter = 0;
+
+void loop() {
+  int reed = digitalRead(2);
+  if (prevState != reed)
+    if (reed == 0)
+      Serial.println(++counter);
+  prevState = reed;
+}
+#+END_SRC
+
+The serial terminal can be monitored while this runs until the desired
+number of turns is achieved.
